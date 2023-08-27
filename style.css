@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0 ;
+    font-family: monospace , sans-serif;
+    background-color: rgb(56, 9, 19);
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh
+    
+
+}
+
+.left, right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.forImage{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+
+}
+
+.semi-transparent h1 {
+    font-size: 50px;
+    font-family: serif , monospace;
+}
+
+.forFooter{
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.forFooter a {
+    color: red;
+    text-decoration: none;
+}
+
+
+.logoText {
+    color : white ;
+    font-size: 23px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+.left {
+    background-image: url('./images/world.jpg');
+    background-size: cover;
+    width: 50vw;
+    color : white ;
+}
+
+.right {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    height: 15vw;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.first p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+
+.second {
+    height: 20vw;
+    margin-left: 5%;
+    
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input{
+    width: 300px;
+    border-radius: 3px;
+    height: 25px;
+    
+}
+
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+input:invalid{
+    background-color: rgb(201, 112, 112);
+    border-bottom: 2px solid red;
+}
+
+.third{
+    margin-top: 3%;
+    margin-left: 5%;
+    
+}
+
+.third .btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(19, 19, 80);
+    color: white;
+    font-size: 18px;
+    font-family: monospace , sans-serif;
+}
+
+.third .logText {
+    font: italic;
+    color: aqua;
+}
+
+.third .logText:hover {
+    cursor: pointer;
+}
+
+
+
+
+

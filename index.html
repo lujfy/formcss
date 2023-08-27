@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Css</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="forImage">
+                <div class="semi-transparent">
+                    <img src="/images/logo1.png" alt="logo" height="100px">
+                    <h1>ODIN</h1>
+                </div>
+            </div>
+
+            <div class="forFooter">
+                <p>Photo found on <a href="https://www.pinterest.com/">Pinterest</a>.</p>
+            </div>
+            
+        </div>
+
+        <div class="right">
+            <div class="first">
+                <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+                <br/>
+                Sign up <em>now</em> to get started.</p>
+                
+                <p class="remoteText">You <em>know</em> you want to.</p>
+            </div>
+
+            <div class="second">
+                <h3>Let's do this !</h3>
+                <form action="" method="get" class="form-main-div">
+
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" name="password">
+                            <p id="error"></p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="last_name">Last Name: </label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="phone_number">Phone Number: </label>
+                            <input type="tel" id="phone_number" name="phone_number">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="confirm_password">Confirm password: </label>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                            <p id="error"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="third">
+                <button type="submit" class="btn btn-blue">
+                    Create Account
+                </button>
+                <p>Already have an account. <span class="logText">Log in </span></p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
